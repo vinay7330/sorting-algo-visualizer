@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+}
+.header h1{
+	font-style: italic;
+	margin-top: 15pt;
+}
+#container{
+	display: flex;
+	margin: 0 auto;
+	width: -webkit-max-content;           
+  	width: -moz-max-content;   
+ 	width: intrinsic;
+	height: 60%;
+}
+
+#b{
+	display: inline-block;
+	margin-left: 1vw;
+	width: 1vw;
+}
+
+#d{
+	display: inline-block;
+	margin-left: 1vw;
+	width: 1vw;
+}
+#bars, #delay{
+	vertical-align: middle;
+}
+
+.range{
+	justify-content: space-evenly;
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: wrap;
+}
+.slide{
+	margin: 0vw 1vw;
+    
+}
+.bar{
+	border: 4px solid black;
+	width:0.6vw;
+	margin:0.1vw;
+	background-color: rgb(248, 244, 244);
+}
+.sorts{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-weight: bold;
+}
+.vars {
+	display: flex;
+	flex-direction: column;
+	justify-content: center; 
+	align-items: center; 
+	height: 30%; 
+  }
+  
+  .vars .range,
+  .vars .sorts {
+	margin-top: 20px; 
+  }
+
+input[type="button"] {
+	margin: 1.5vw 0.5vw;
+}
+input[type="button"]:hover, button:hover{
+	background-color: rgb(228, 166, 116) ;
+	cursor: pointer;
+	color: #060606;
+}
+input[type="button"]:disabled, input[type="range"]:disabled{
+	background-color: grey;
+	cursor: not-allowed;
+	color: rgb(7, 7, 7);
+}
+input[type="button"], button{
+	background: rgb(6, 6, 6);
+	border: none;
+	padding: 1.3vh;
+	border-radius: 9vw;
+	min-width: 8vw;
+	color: rgb(245, 245, 247);
+	font-size: 1.2vw;
+}
