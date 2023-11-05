@@ -1,5 +1,5 @@
 let bars = [];
-const def = "#afd275", chng = "orange", finished = "white", selected = "skyblue";
+const def = "#afd275", chng = "orange", finished = "skyblue", selected = "red";
 
 window.onload = setup();
 async function setup() {
