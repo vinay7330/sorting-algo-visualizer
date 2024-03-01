@@ -43,7 +43,7 @@ function generateBars(n = -1) {
 	let container = document.getElementById("container");
 	n = n < 0 ? Math.random() * 20 : n;
 	for (let i = 0; i < n; i++) {
-		bars.push('<div class="bar" id="' + i + '" style="height:' + Math.floor(2 + Math.random() * 98) + '%"></div>');
+		bars.push('<div class="bar" id="' + i + '" style="height:' + Math.floor(2 + Math.random() * 80) + '%"></div>');
 	}
 	container.innerHTML = bars.join('');
 }
