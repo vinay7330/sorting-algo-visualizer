@@ -82,8 +82,8 @@ button:hover {
 	min-width: 8vw;
     cursor: pointer;
     color: #060606;
-    border: 2px solid black; 
-    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.5); 
+    border: 3px solid black; 
+    box-shadow:5px 5px 5px rgba(0,0,0,0.5); 
 }
 
 input[type="button"]:disabled, input[type="range"]:disabled{
